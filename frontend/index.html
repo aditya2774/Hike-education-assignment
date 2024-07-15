@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Example</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo"><img src="./images/MAHE_Color 1.png" alt=""></div>
+        <ul class="navbar-center">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#global-impact">Global Impact</a></li>
+            <li><a href="#certificate">Certificate</a></li>
+        </ul>
+        <div class="navbar-right">
+            <button class="apply-button">Apply Online</button>
+        </div>
+    </nav>
+    <hr class="custom-line">
+
+    <section class="banner">
+        <div class="banner-content">
+            <h1 class="banner-content-heading">Online course from MAHE</h1>
+            <div class="boxes">
+                <div class="box">Master Of Business Administration</div>
+                <div class="box">MSc in Business Analytics</div>
+                <div class="box">MSc in Data Science</div>
+            </div>
+            <div class="banner-footer">
+                <p class="banner-footer-text" style="font-size: 25px;">INSTITUTION <br/> OF EMINENCE <br/> by Government of India</p>
+            </div>
+        </div>
+        <div class="form-container">
+            <form id="enquiryForm" method="POST">
+                <h2 class="form-heading">Enquire Now</h2>
+                <input type="text" id="name" name="name" placeholder="Name" required>
+                <div class="mobile-container">
+                    <select id="country-code" name="country-code" required>
+                        <option value="+91">+91 (India)</option>
+                        <option value="+1">+1 (USA)</option>
+                        <option value="+44">+44 (UK)</option>
+                        <!-- Add more country codes as needed -->
+                    </select>
+                    <input type="tel" id="mobile" name="mobile" placeholder="Mobile Number" required>
+                </div>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <div class="inline-fields">
+                    <select id="state" name="state" required>
+                        <option value="">Select State</option>
+                    </select>
+                    <select id="city" name="city" required>
+                        <option value="">Select City</option>
+                    </select>
+                </div>
+                <div class="inline-fields">
+                    <select id="program" name="program" required>
+                        <option value="">Select Program</option>
+                        <option value="mba">Master Of Business Administration</option>
+                        <option value="analytics">MSc in Business Analytics</option>
+                        <option value="data-science">MSc in Data Science</option>
+                    </select>
+                    <select id="elective" name="elective" required>
+                        <option value="">Select Elective</option>
+                        <option value="finance">Finance</option>
+                        <option value="marketing">Marketing</option>
+                        <option value="hr">Human Resources</option>
+                    </select>
+                </div>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="agreement" name="agreement" required>
+                    <label for="agreement">I authorize Sharda Online and its associates to contact me with updates & notifications via email,SMS, Whatsapp and voice call. This consent will override any registration for DNC/NDNC.</label>
+                </div>
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </div>
+    </section>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Info Div</title>
+</head>
+<body>
+    <div class="info-container">
+        <div class="info-box">
+            <span class="info-number">70+</span>
+            <span class="info-text">Years of educational excellence</span>
+        </div>
+        <div class="info-box">
+            <span class="info-number">1500+</span>
+            <span class="info-text">Nationalities</span>
+        </div>
+        <div class="info-box">
+            <span class="info-number">60+</span>
+            <span class="info-text">Alumni Network</span>
+        </div>
+        <div class="info-box">
+            <span class="info-number">3000+</span>
+            <span class="info-text">Expert faculty</span>
+        </div>
+        <div class="info-box">
+            <span class="info-number">100+</span>
+            <span class="info-text">Recruiters from Fortune 500 companies</span>
+        </div>
+    </div>
+    <div class="container">
+        <!-- Rankings & Accreditations Section -->
+        <div class="rankings-accreditations">
+            <h2>Rankings & accreditations</h2>
+            <div class="accreditation-items">
+                <div class="accreditation-item">
+                    <img src="./images/NIRF-1 1.png" alt="NIRF Logo">
+                    <p>Amongst India's Top #101-150 Universities in 2023</p>
+                </div>
+                <div class="accreditation-item">
+                    <img src="./images/MAHE_Ranking.jpg 1.png" alt="THE Logo">
+                    <p>Amongst World's Top Universities for Quality Education in 2023</p>
+                </div>
+                <div class="accreditation-item">
+                    <img src="./images/IOE.jpg 1.png" alt="Institution of Eminence Logo">
+                    <p>Among India's Few Universities Granted IOE Status</p>
+                </div>
+                <div class="accreditation-item">
+                    <img src="./images/NAAC-A-2 1.png" alt="NAAC Logo">
+                    <p>Amongst India's Top #101-150 Universities in 2023</p>
+                </div>
+                <div class="accreditation-item">
+                    <img src="./images/AICTE-3 1.png" alt="AICTE Logo">
+                    <p>Amongst India's Top #101-150 Universities in 2023</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Programs Section -->
+        <div class="programs">
+            <h2>Our Programs</h2>
+            <div class="program-tabs">
+                <button class="tab active">Online degree programs</button>
+                <button class="tab">PGCP Programs</button>
+            </div>
+            <div class="program-cards">
+                <div class="program-card">
+                    <img src="./images/main-qimg-51b1c765bce9ddbec55293915c358be1-lq.jpeg" alt="MBA">
+                    <div class="program-info">
+                        <h3>Master of Business Administration (Online MBA)</h3>
+                        <p><strong>Work Ex. Desirable</strong></p>
+                        <p>24 months | 15-20 Hours/Week</p>
+                        <ul>
+                            <li>Healthcare Management</li>
+                            <li>Fashion Management</li>
+                            <li>Pharmaceutical Management, etc</li>
+                        </ul>
+                        <p><strong>INR 2,80,000</strong></p>
+                        <button>Download Brochure</button>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <img src="./images/360_F_583904633_KdJ8XUNNax5FSnzKYIbhS1FYuxUbTwzn.jpg" alt="Business Analytics">
+                    <div class="program-info">
+                        <h3>MSc in Business Analytics</h3>
+                        <p><strong>Work Ex. Desirable</strong></p>
+                        <p>24 months | 15-20 Hours/Week</p>
+                        <ul>
+                            <li>Business Statistics</li>
+                            <li>Big Data Analytics</li>
+                            <li>Programming with R and Python, etc</li>
+                        </ul>
+                        <p><strong>INR 2,80,000</strong></p>
+                        <button>Download Brochure</button>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <img src="./images/f007664f0d524a219a2c83a9336a2d4e.jpg" alt="Data Science">
+                    <div class="program-info">
+                        <h3>MSc in Data Science</h3>
+                        <p><strong>Work Ex. Desirable</strong></p>
+                        <p>24 months | 15-20 Hours/Week</p>
+                        <ul>
+                            <li>Machine Learning Methods</li>
+                            <li>Database Management</li>
+                            <li>Programming with R and Python, etc</li>
+                        </ul>
+                        <p><strong>INR 2,80,000</strong></p>
+                        <button>Download Brochure</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Call to Action Section -->
+        <div class="cta-section">
+            <div class="cta-item">
+                <h3>No-cost EMIs & more</h3>
+                <p>With our no-cost EMIs and easy financing options, we let your finances take the spotlight, freeing you from the stress of financial worries and allowing you to focus on your education.</p>
+                <button>Request call back</button>
+            </div>
+            <div class="cta-item">
+                <h3>Scholarships up to 30%</h3>
+                <p>Exclusive scholarships designed for meritorious students, defense personnel, government employees, differently abled people, Manipal alumni & learners from Sikkim and other Northeast regions of India.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="advantages">
+        <h1>Online M.A.H.E Advantages</h1>
+        <img src="path-to-your-image/image1.png" alt="UGC-entitled degrees">
+        <ul>
+            <li>UGC-entitled degrees</li>
+            <li>Attractive scholarships</li>
+            <li>Placement assistance</li>
+            <li>Prestigious Manipal alumni status</li>
+            <li>Industry webinars & simulations</li>
+            <li>Global classroom</li>
+            <li>In-person campus immersion</li>
+            <li>Exhaustive e-content & virtual lab</li>
+            <li>Convenient class schedule</li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <p>Choose our online programs to avail all these advantages & more</p>
+        <button>Enroll Now</button>
+    </div>
+
+
+
+</body>
+</html>
+
